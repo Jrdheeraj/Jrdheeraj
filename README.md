@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&color=0:0D1117,50:00D9FF,100:7B2FFF&height=220&section=header&text=Dheeraj%20Kannemadugu&fontSize=46&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=CSE%20Undergraduate%20%7C%20AI%20%26%20ML%20Developer%20%7C%20Startup%20Builder&descSize=17&descAlignY=58&descColor=00D9FF" width="100%" alt="header"/>
 </p>

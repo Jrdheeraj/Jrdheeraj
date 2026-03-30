@@ -23,28 +23,22 @@
 
 ---
 
-## 💻 About Me
-<img align="right" width="340" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e04d-9112-4d89-b7b2-e2df52424dcc.gif" alt="Developer GIF" />
+## 👨‍💻 About Me
+<img align="right" width="320" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Developer Illustration" />
 
-```javascript
-const profile = {
-  name: "Dheeraj",
-  pronouns: "He/Him",
-  location: "India 🇮🇳",
-  currentFocus: "JUSTICE AI ✨",
-  learning: ["MERN Stack", "System Design"],
-  interests: ["Problem Solving", "Web Development", "AI/ML"],
-  motto: "Bugs in my head never make me sleep 😴",
+🎓 CSE Student | Aspiring Entrepreneur  
+🚀 Exploring AI/ML  
 
-  lifeLoop: function () {
-    while (alive) {
-      eat();
-      code();
-      solve();
-    }
-  }
-};
-```
+📘 Currently learning:
+- Data Structures & Algorithms
+- Deep Learning & Generative AI
+
+💡 Interests:
+- Problem Solving
+- Web Development
+- AI/ML
+
+⚡ Fun Fact: I turn ideas into projects before overthinking 😄
 
 <br clear="both" />
 

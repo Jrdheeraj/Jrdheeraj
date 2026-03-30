@@ -24,7 +24,10 @@
 ---
 
 ## 👨‍💻 About Me
-<img align="right" width="320" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Developer Illustration" />
+
+<table>
+  <tr>
+    <td width="60%" style="vertical-align:middle;">
 
 🎓 CSE Student | Aspiring Entrepreneur  
 🚀 Exploring AI/ML  
@@ -40,7 +43,12 @@
 
 ⚡ Fun Fact: I turn ideas into projects before overthinking 😄
 
-<br clear="both" />
+    </td>
+    <td width="40%" align="center" style="vertical-align:middle;">
+      <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Developer Illustration" width="420" />
+    </td>
+  </tr>
+</table>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbac4680-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 

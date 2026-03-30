@@ -12,7 +12,7 @@
 ---
 
 ## 🔗 Social Badges
-<div align="center">
+div align="center">
   <a href="https://www.linkedin.com/in/kannemadugu-dheeraj-479515289/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://instagram.com/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
   <a href="https://youtube.com/"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
@@ -45,7 +45,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbac4680-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ## ⚙️ Tech Arsenal
-<table>
+table>
   <tr>
     <td width="50%">
       <h3 align="center">💻 Programming</h3>
@@ -106,7 +106,7 @@
 </table>
 
 ## 📊 GitHub Statistics
-<div align="center">
+div align="center">
   <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Jrdheeraj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Jrdheeraj&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
@@ -120,6 +120,12 @@
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbac4680-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+## 🐍 Contribution Snake
+![snake gif](https://github.com/Jrdheeraj/Jrdheeraj/blob/output/github-contribution-grid-snake.svg)
+
+## 💭 Quote
+“Build first. Learn fast. Improve always.”
 
 ---
 

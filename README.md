@@ -1,147 +1,139 @@
+<!-- Animated Gradient Header -->
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:1a1a2e,100:0f0c29&height=210&section=header&text=KANNEMADUGU%20DHEERAJ&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=AI%2FML%20%C2%B7%20Full%20Stack%20Engineer&descAlignY=58&descSize=16&fontColor=00D4FF" width="100%" />
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1200&color=8B8B9E&center=true&vCenter=true&width=600&lines=Shipping+AI+systems+from+model+to+production;Computer+Vision+%C2%B7+Agentic+RAG+%C2%B7+Geospatial+ML;Python+%C2%B7+FastAPI+%C2%B7+React" alt="Typing SVG" />
-
-<br/>
-
-<a href="https://dheeraj-portfolio-tan.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/kannemadugu-dheeraj-479515289/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:kannemadugudheeraj5@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://github.com/Jrdheeraj"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=Jrdheeraj&style=for-the-badge&color=1a1a2e&label=PROFILE+VIEWS" />
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:7b2cbf&height=220&section=header&text=Dheeraj&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
 </div>
 
-<br/>
-## 🧭 About
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3500&pause=900&color=00D4FF&center=true&vCenter=true&width=650&lines=AI+%26+ML+Developer;Full+Stack+Builder;Startup+Builder;Problem+Solver;Always+Learning+%F0%9F%9A%80" alt="Typing Animation" />
+</div>
 
-<img align="right" width="260" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="coding gif" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbac4680-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-Computer Science student focused on **AI/ML and full-stack development** — I build systems that go from a trained model to a deployed product, not just a notebook.
+---
 
-Recent work spans **agentic RAG**, **computer vision on satellite imagery**, and **geospatial analytics** — each shipped as a live, full-stack application rather than a research script.
+## 🔗 Social Badges
+<div align="center">
+  <a href="https://www.linkedin.com/in/kannemadugu-dheeraj-479515289/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://instagram.com/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://youtube.com/"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
+  <a href="mailto:your.email@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</div>
 
-```
-🎓  B.Tech CSE @ Viswam Engineering College — 2023 → 2027
-🧠  AI/ML · Computer Vision · Agentic RAG · Geospatial Analytics
-🌱  Currently building end-to-end deployed AI products
-```
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbac4680-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<br clear="both"/>
+---
 
-## 🚀 Selected Work
+## 👨‍💻 About Me
+<img align="right" width="320" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Developer Illustration" />
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+🎓 CSE Student | Aspiring Entrepreneur  
+🚀 Exploring AI/ML  
 
-### 🔍 TruthLens AI
-Multimodal fact-verification platform — text, image & video claims verified via **Agentic RAG** with deepfake, OCR, and audio analysis feeding an LLM reasoning layer.
+📘 Currently learning:
+- Data Structures & Algorithms
+- Deep Learning & Generative AI
 
-**📈 88% accuracy · 60 claims tested**
+💡 Interests:
+- Problem Solving
+- Web Development
+- AI/ML
 
-`FastAPI` `React 18` `TypeScript` `Groq` `OpenCV`
+⚡ Fun Fact: I turn ideas into projects before overthinking 😄
 
-[`↗ Repo`](https://github.com/Jrdheeraj) &nbsp;·&nbsp; [`↗ Live`](https://dheeraj-portfolio-tan.vercel.app)
+<br clear="both" />
 
-</td>
-<td width="50%" valign="top">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbac4680-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-### 🛰️ GeoAI
-Urban growth monitoring platform — Random Forest on Google Earth Engine Sentinel-2 imagery for pixel-level land-use change detection, with a real-time simulation dashboard.
-
-**📈 91% accuracy · 2 cities**
-
-`Google Earth Engine` `Rasterio` `React` `Leaflet`
-
-[`↗ Repo`](https://github.com/Jrdheeraj) &nbsp;·&nbsp; [`↗ Live`](https://dheeraj-portfolio-tan.vercel.app)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ☀️ Solar Scan AI
-Rooftop solar detection from satellite imagery via **YOLOv8 + CNN**, computing panel area, energy capacity, and ROI per rooftop at scale.
-
-**📈 93% precision · 3,000+ rooftops**
-
-`YOLOv8` `CNN` `FastAPI` `Docker`
-
-[`↗ Repo`](https://github.com/Jrdheeraj) &nbsp;·&nbsp; [`↗ Live`](https://dheeraj-portfolio-tan.vercel.app)
-
-</td>
-<td width="50%" valign="top">
-
-### 🏭 FactoryFix AI
-Predictive-maintenance ML pipeline forecasting machine failure risk and remaining useful life from sensor data, visualized on a live dashboard.
-
-**📈 27% cut in unplanned downtime**
-
-`Scikit-learn` `Pandas` `React`
-
-[`↗ Repo`](https://github.com/Jrdheeraj)
-
-</td>
-</tr>
+## ⚙️ Tech Arsenal
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">💻 Programming</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+        <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">🧠 AI / ML</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=FF6F00" />
+        <img src="https://img.shields.io/badge/Deep%20Learning-0A0F1C?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" />
+        <img src="https://img.shields.io/badge/Generative%20AI-111827?style=for-the-badge&logo=openai&logoColor=00A67E" />
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🌐 Web Development</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/HTML-EE4D2D?style=for-the-badge&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS-264DE4?style=for-the-badge&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" />
+        <br />
+        <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">📦 Databases</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/MySQL-005C87?style=for-the-badge&logo=mysql&logoColor=white" />
+        <img src="https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white" />
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">⚙️ Tools & IDE</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+        <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
+        <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+        <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=111" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
+        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+        <img src="https://img.shields.io/badge/n8n-EA4B8B?style=for-the-badge&logo=n8n&logoColor=white" />
+        <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+      </div>
+    </td>
+  </tr>
 </table>
 
-<br/>
-
-## ⚙️ Tech Stack
-
+## 📊 GitHub Statistics
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,ts,js,fastapi,react,nextjs,nodejs,tailwind&theme=dark" /><br/><br/>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" /><br/><br/>
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,docker,vercel,git,github,figma&theme=dark" />
-
-</div>
-
-<br/>
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Jrdheeraj&show_icons=true&theme=radical&hide_border=true&count_private=true&title_color=00D4FF&icon_color=8B8B9E&text_color=c9d1d9&bg_color=0d1117" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Jrdheeraj&theme=radical&hide_border=true&background=0d1117&ring=00D4FF&fire=8B8B9E&currStreakLabel=00D4FF" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Jrdheeraj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Jrdheeraj&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Jrdheeraj&theme=react-dark&hide_border=true&bg_color=0d1117&color=00D4FF&line=8B8B9E&point=ffffff" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Jrdheeraj&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Jrdheeraj&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Jrdheeraj&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
-<br/>
-
-## 🏆 Recognition
-
-<table width="100%">
-<tr><td>🥈</td><td><b>2nd Best Innovation Award</b>, Atal Incubation Center — SK University · IoT smart air-purification project, Team Lead among 32 competing teams</td></tr>
-<tr><td>🎯</td><td>Qualified <b>Round 2, IIT Tirupati E-Summit Idea Sprint</b> — only selected team from Viswam Engineering College among 30 teams</td></tr>
-<tr><td>🎓</td><td><b>Student Brand Ambassador</b>, Idea Lab — Viswam Engineering College</td></tr>
-<tr><td>👥</td><td>Led <b>5 hackathons/group projects</b> as sole technical contributor</td></tr>
-</table>
-
-<br/>
+---
 
 ## 🐍 Contribution Snake
 ![snake gif](https://github.com/Jrdheeraj/Jrdheeraj/blob/output/github-contribution-grid-snake.svg)
 
-<br/>
+---
+
+## 💭 Quote
+“Build first. Learn fast. Improve always.”
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbac4680-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+---
 
 <div align="center">
-
-### *"Build first. Learn fast. Improve always."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:1a1a2e,100:0f0c29&height=120&section=footer" width="100%" />
-
+  <h3>⭐ Let's build something amazing together! 🚀</h3>
+  <img src="https://komarev.com/ghpvc/?username=Jrdheeraj&style=for-the-badge&color=00D4FF" />
 </div>

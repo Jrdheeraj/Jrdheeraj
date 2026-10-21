@@ -221,9 +221,9 @@
   <!-- Static README content cannot update every second; this block refreshes on workflow schedule/manual run. -->
   <img src="https://img.shields.io/badge/Total%20Stars%20Earned-4-0A0F1C?style=for-the-badge&logo=github&logoColor=00D4FF" alt="Total stars earned across public repositories" />
   <br /><br />
-  <img src="https://img.shields.io/badge/Total%20Commits%20%28Best%20Effort%29-270-111827?style=for-the-badge&logo=git&logoColor=7B2CBF" alt="Total commits authored across public repositories (best effort)" />
+  <img src="https://img.shields.io/badge/Total%20Commits%20%28Best%20Effort%29-292-111827?style=for-the-badge&logo=git&logoColor=7B2CBF" alt="Total commits authored across public repositories (best effort)" />
   <br /><br />
-  <img src="https://img.shields.io/badge/Total%20Pull%20Requests-9-181717?style=for-the-badge&logo=github&logoColor=00D4FF" alt="Total pull requests authored across repositories" />
+  <img src="https://img.shields.io/badge/Total%20Pull%20Requests-10-181717?style=for-the-badge&logo=github&logoColor=00D4FF" alt="Total pull requests authored across repositories" />
   <br /><br />
   <img src="https://img.shields.io/badge/Total%20Issues%20%28Excl.%20PRs%29-0-0A0F1C?style=for-the-badge&logo=github&logoColor=7B2CBF" alt="Total issues authored across repositories excluding pull requests" />
   <br /><br />

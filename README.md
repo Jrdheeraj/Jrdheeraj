@@ -153,14 +153,50 @@
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <img src="https://img.shields.io/github/followers/Jrdheeraj?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/Jrdheeraj?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/repo-size/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Profile%20Repo%20Size" alt="Profile repository size" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=00D4FF&text=My%20GitHub%20Journey&fontSize=28&height=80&section=header&animation=fadeIn" alt="My GitHub journey" />
 </div>
 
 <div align="center">
-  <a href="https://github.com/Jrdheeraj?tab=repositories"><img src="https://img.shields.io/badge/View%20all%20repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="View all repositories" /></a>
-  <a href="https://github.com/Jrdheeraj?tab=overview"><img src="https://img.shields.io/badge/View%20GitHub%20profile-0A0F1C?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub profile" /></a>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00d4ff,50:7b2cbf,100:00d4ff&height=6&section=header" width="88%" alt="animated statistics divider" />
+</div>
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <h3>👥 Community</h3>
+      <img src="https://img.shields.io/github/followers/Jrdheeraj?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" />
+      <br /><br />
+      <img src="https://img.shields.io/github/watchers/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Watchers" alt="Repository watchers" />
+    </td>
+    <td width="33%" align="center">
+      <h3>⭐ Recognition</h3>
+      <img src="https://img.shields.io/github/stars/Jrdheeraj?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" />
+      <br /><br />
+      <img src="https://img.shields.io/github/commit-activity/y/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Commits%20this%20year" alt="Yearly commit activity" />
+    </td>
+    <td width="33%" align="center">
+      <h3>📦 Profile Project</h3>
+      <img src="https://img.shields.io/github/repo-size/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Repository%20size" alt="Profile repository size" />
+      <br /><br />
+      <img src="https://img.shields.io/github/last-commit/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Last%20update" alt="Last repository update" />
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <h3>📈 Development Snapshot</h3>
+  <img src="https://img.shields.io/github/languages/count/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Languages" alt="Language count" />
+  <img src="https://img.shields.io/github/repo-size/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Project%20size" alt="Project size" />
+  <img src="https://img.shields.io/github/created-at/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Created" alt="Repository creation date" />
+</div>
+
+<div align="center">
+  <a href="https://github.com/Jrdheeraj?tab=repositories"><img src="https://img.shields.io/badge/🚀%20Explore%20my%20repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" /></a>
+  <a href="https://github.com/Jrdheeraj?tab=overview"><img src="https://img.shields.io/badge/✨%20View%20my%20GitHub%20profile-0A0F1C?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub profile" /></a>
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=700&color=7B2CBF&center=true&vCenter=true&width=800&lines=Every+commit+is+a+step+forward;Building+%E2%80%A2+Learning+%E2%80%A2+Sharing+%E2%80%A2+Growing" alt="Development journey animation" />
 </div>
 
 ---

@@ -32,12 +32,8 @@
   <tr>
     <td width="55%" valign="top">
       <h3>🚀 Who I Am</h3>
-      <p>
-        I’m <strong>Dheeraj</strong>, a CSE student and aspiring entrepreneur who enjoys transforming bold ideas into practical digital experiences.
-      </p>
-      <p>
-        I explore the intersection of <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>, and <strong>Full-Stack Development</strong> to build projects that are both intelligent and impactful.
-      </p>
+      <p>I’m <strong>Dheeraj</strong>, a CSE student and aspiring entrepreneur who enjoys transforming bold ideas into practical digital experiences.</p>
+      <p>I explore the intersection of <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>, and <strong>Full-Stack Development</strong> to build projects that are both intelligent and impactful.</p>
       <h3>🎯 My Current Mission</h3>
       <ul>
         <li>Master Data Structures & Algorithms</li>
@@ -89,49 +85,56 @@
 ## ⚙️ Tech Arsenal
 
 <div align="center">
-  <h3>💻 Programming</h3>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=600&color=00D4FF&center=true&vCenter=true&width=800&lines=My+Digital+Workshop;Tools+for+turning+ideas+into+reality;Code+%E2%80%A2+Create+%E2%80%A2+Innovate" alt="Tech arsenal animation" />
 </div>
 
 <div align="center">
-  <h3>🧠 AI / ML</h3>
-  <img src="https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=FF6F00" alt="Machine Learning" />
-  <img src="https://img.shields.io/badge/Deep%20Learning-0A0F1C?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" alt="Deep Learning" />
-  <img src="https://img.shields.io/badge/Generative%20AI-111827?style=for-the-badge&logo=openai&logoColor=00A67E" alt="Generative AI" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00d4ff,50:7b2cbf,100:00d4ff&height=8&section=header&reversal=true" width="88%" alt="animated tech divider" />
 </div>
 
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <h3>💻 Programming</h3>
+      <img src="https://skillicons.dev/icons?i=python,java,c&theme=dark" alt="Python Java and C" />
+      <br /><br />
+      <img src="https://img.shields.io/badge/Logic-Problem%20Solving-3776AB?style=for-the-badge&logo=leetcode&logoColor=white" alt="Problem solving" />
+    </td>
+    <td align="center" width="50%">
+      <h3>🧠 AI / ML</h3>
+      <img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" alt="TensorFlow and PyTorch" />
+      <br /><br />
+      <img src="https://img.shields.io/badge/Focus-Intelligent%20Systems-7B2CBF?style=for-the-badge&logo=robotframework&logoColor=white" alt="Intelligent systems" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <h3>🌐 Web Development</h3>
+      <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,tailwind&theme=dark" alt="HTML CSS JavaScript React Node.js and Tailwind CSS" />
+      <br /><br />
+      <img src="https://img.shields.io/badge/Build-Interactive%20Experiences-06B6D4?style=for-the-badge&logo=webcomponents.org&logoColor=white" alt="Interactive experiences" />
+    </td>
+    <td align="center" width="50%">
+      <h3>📦 Databases</h3>
+      <img src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark" alt="MySQL and MongoDB" />
+      <br /><br />
+      <img src="https://img.shields.io/badge/Data-Design%20%26%20Storage-13AA52?style=for-the-badge&logo=databricks&logoColor=white" alt="Data design and storage" />
+    </td>
+  </tr>
+</table>
+
 <div align="center">
-  <h3>🌐 Web Development</h3>
-  <img src="https://img.shields.io/badge/HTML-EE4D2D?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
-  <img src="https://img.shields.io/badge/CSS-264DE4?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" alt="JavaScript" />
+  <h3>🛠️ Tools & Creative Workflow</h3>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,vercel,arduino,figma&theme=dark" alt="Git GitHub VS Code Docker Vercel Arduino and Figma" />
   <br />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
-</div>
-
-<div align="center">
-  <h3>📦 Databases</h3>
-  <img src="https://img.shields.io/badge/MySQL-005C87?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-</div>
-
-<div align="center">
-  <h3>⚙️ Tools & IDE</h3>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
   <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Google Colab" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
   <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=111" alt="Render" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
   <img src="https://img.shields.io/badge/n8n-EA4B8B?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
   <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=00D4FF&text=Explore%20%E2%80%A2%20Experiment%20%E2%80%A2%20Build%20%E2%80%A2%20Ship&fontSize=22&height=80&section=header&animation=fadeIn" alt="Explore experiment build ship" />
 </div>
 
 ---

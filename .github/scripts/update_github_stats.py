@@ -7,11 +7,13 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
+from typing import Any
 
 API_BASE = "https://api.github.com"
 START_MARKER = "<!-- GITHUB_STATS:START -->"
 END_MARKER = "<!-- GITHUB_STATS:END -->"
 README_PATH = "README.md"
+MAX_RETRIES = 3
 
 
 def build_headers(token: str) -> dict:
@@ -25,10 +27,22 @@ def build_headers(token: str) -> dict:
     return headers
 
 
+def _read_error_message(error: urllib.error.HTTPError) -> str:
+    try:
+        body = error.read().decode("utf-8")
+    except Exception:
+        return ""
+    try:
+        return str(json.loads(body).get("message", ""))
+    except Exception:
+        return ""
+
+
 def request_json(method: str, url: str, headers: dict, payload: dict | None = None):
     body = None if payload is None else json.dumps(payload).encode("utf-8")
-    request = urllib.request.Request(url=url, method=method, headers=headers, data=body)
+    attempt = 0
     while True:
+        request = urllib.request.Request(url=url, method=method, headers=headers, data=body)
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
                 data = response.read().decode("utf-8")
@@ -41,7 +55,31 @@ def request_json(method: str, url: str, headers: dict, payload: dict | None = No
                 print(f"Rate limit reached. Sleeping for {sleep_for}s.")
                 time.sleep(sleep_for)
                 continue
-            raise
+            message = _read_error_message(error).lower()
+            if error.code == 403 and (
+                "secondary rate limit" in message or "abuse detection" in message
+            ):
+                if attempt < MAX_RETRIES:
+                    attempt += 1
+                    sleep_for = 5 * attempt
+                    print(
+                        f"Secondary rate limit detected for {url}. "
+                        f"Retrying in {sleep_for}s ({attempt}/{MAX_RETRIES})."
+                    )
+                    time.sleep(sleep_for)
+                    continue
+            if error.code >= 500 and attempt < MAX_RETRIES:
+                attempt += 1
+                sleep_for = 2 * attempt
+                print(
+                    f"GitHub API temporary error {error.code} for {url}. "
+                    f"Retrying in {sleep_for}s ({attempt}/{MAX_RETRIES})."
+                )
+                time.sleep(sleep_for)
+                continue
+            raise RuntimeError(
+                f"GitHub API request failed ({method} {url}): HTTP {error.code} {error.reason}"
+            ) from error
 
 
 def fetch_paginated(url: str, headers: dict):
@@ -97,7 +135,24 @@ def count_search(query: str, headers: dict) -> int:
     q = urllib.parse.quote(query, safe="")
     url = f"{API_BASE}/search/issues?q={q}&per_page=1"
     data, _ = request_json("GET", url, headers)
-    return int(data.get("total_count", 0))
+    if "total_count" not in data:
+        raise RuntimeError(f"GitHub search response missing total_count for query: {query}")
+    return int(data["total_count"])
+
+
+def count_commit_search(owner: str, headers: dict) -> int | None:
+    query = urllib.parse.quote(f"author:{owner} is:public", safe="")
+    url = f"{API_BASE}/search/commits?q={query}&per_page=1"
+    commit_headers = dict(headers)
+    commit_headers["Accept"] = "application/vnd.github.cloak-preview+json"
+    try:
+        data, _ = request_json("GET", url, commit_headers)
+    except RuntimeError as error:
+        print(f"Commit search API unavailable, falling back to repository commit scan: {error}")
+        return None
+    if "total_count" not in data:
+        return None
+    return int(data["total_count"])
 
 
 def contribution_total_from_graphql(owner: str, headers: dict, year: int) -> int | None:
@@ -124,10 +179,12 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
     }
     try:
         data, _ = request_json("POST", f"{API_BASE}/graphql", headers, payload)
-    except urllib.error.HTTPError:
+    except RuntimeError as error:
+        print(f"GraphQL contribution query failed, using fallback: {error}")
         return None
 
     if data.get("errors"):
+        print(f"GraphQL returned errors, using fallback: {data.get('errors')}")
         return None
     user_data = data.get("data", {}).get("user")
     if not user_data:
@@ -163,6 +220,28 @@ def replace_generated_block(readme_text: str, generated_body: str) -> str:
     return pattern.sub(replacement, readme_text, count=1)
 
 
+def compute_commit_totals(
+    owner: str, repositories: list[dict[str, Any]], headers: dict, since_start_of_year: str
+) -> tuple[int, int, str]:
+    total_commits_from_search = count_commit_search(owner, headers)
+    total_commits_from_repo_scan = 0
+    yearly_commits = 0
+    for repo in repositories:
+        repo_name = repo.get("name")
+        if not repo_name:
+            continue
+        total_commits_from_repo_scan += count_commits(owner, repo_name, headers)
+        yearly_commits += count_commits(owner, repo_name, headers, since=since_start_of_year)
+
+    if total_commits_from_search is None:
+        return total_commits_from_repo_scan, yearly_commits, "repo_scan"
+    return (
+        max(total_commits_from_search, total_commits_from_repo_scan),
+        yearly_commits,
+        "max(search, repo_scan)",
+    )
+
+
 def main():
     owner = os.environ.get("STATS_USERNAME") or os.environ.get("GITHUB_REPOSITORY_OWNER") or "Jrdheeraj"
     token = os.environ.get("GITHUB_TOKEN", "")
@@ -173,17 +252,12 @@ def main():
     repositories = fetch_public_repositories(owner, headers)
     total_stars = sum(int(repo.get("stargazers_count", 0)) for repo in repositories)
 
-    total_commits = 0
-    yearly_commits = 0
-    for repo in repositories:
-        repo_name = repo.get("name")
-        if not repo_name:
-            continue
-        total_commits += count_commits(owner, repo_name, headers)
-        yearly_commits += count_commits(owner, repo_name, headers, since=since_start_of_year)
+    total_commits, yearly_commits, commits_source = compute_commit_totals(
+        owner, repositories, headers, since_start_of_year
+    )
 
-    total_pull_requests = count_search(f"type:pr author:{owner}", headers)
-    total_issues = count_search(f"type:issue author:{owner}", headers)
+    total_pull_requests = count_search(f"type:pr author:{owner} is:public", headers)
+    total_issues = count_search(f"type:issue author:{owner} is:public", headers)
 
     yearly_contributions = contribution_total_from_graphql(owner, headers, year)
     yearly_label = f"Contributions ({year})"
@@ -196,6 +270,7 @@ def main():
     generated_lines = [
         "  <!-- Auto-generated by .github/scripts/update_github_stats.py; do not edit manually. -->",
         "  <!-- Total commits use a best-effort public API method and may undercount in edge cases. -->",
+        "  <!-- Static README content cannot update every second; this block refreshes on workflow schedule/manual run. -->",
         make_badge(
             "Total Stars Earned",
             total_stars,
@@ -240,6 +315,9 @@ def main():
             "00D4FF",
             yearly_alt,
         ),
+        "  <br /><br />",
+        "  <sub>Cross-repository totals refresh daily via workflow or manual dispatch. "
+        "Repository badges can be live; static README totals are scheduled.</sub>",
     ]
     generated_body = "\n".join(generated_lines)
 
@@ -255,8 +333,10 @@ def main():
         json.dumps(
             {
                 "owner": owner,
+                "repository_count": len(repositories),
                 "stars": total_stars,
                 "commits_best_effort": total_commits,
+                "commits_source": commits_source,
                 "pull_requests": total_pull_requests,
                 "issues_excluding_prs": total_issues,
                 "year": year,

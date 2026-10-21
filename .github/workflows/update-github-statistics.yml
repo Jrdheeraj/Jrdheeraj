@@ -10,24 +10,36 @@ on:
 
 permissions:
   contents: write
+  issues: read
+  pull-requests: read
 
 jobs:
   refresh-stats:
+    if: github.event_name != 'push' || github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
+      - name: Log workflow context
+        run: |
+          echo "Workflow event: $GITHUB_EVENT_NAME"
+          echo "Workflow ref: $GITHUB_REF"
+          echo "Updating stats for owner: ${{ github.repository_owner }}"
+
       - name: Update generated statistics block
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          STATS_USERNAME: ${{ github.repository_owner }}
         run: python .github/scripts/update_github_stats.py
 
       - name: Commit README if changed

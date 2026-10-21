@@ -164,13 +164,15 @@
 <div align="center">
   <table>
     <tr>
-      <td align="left" width="50%">
-        <h3>📈 Profile Activity</h3>
-        <p>⭐ <strong>Total Stars Earned:</strong> <strong>4</strong></p>
-        <p>🔥 <strong>Total Commits:</strong> <strong>302</strong></p>
-        <p>🔀 <strong>Total Pull Requests:</strong> <strong>8</strong></p>
-        <p>❗ <strong>Total Issues:</strong> <strong>0</strong></p>
-        <p>🗓️ <strong>Contributed Recently:</strong> <strong>302 commits</strong></p>
+      <td align="center" width="50%">
+        <h3>📈 Live Profile Signals</h3>
+        <img src="https://img.shields.io/github/followers/Jrdheeraj?style=for-the-badge&logo=github&label=Followers" alt="Live GitHub followers count for Jrdheeraj" />
+        <br /><br />
+        <img src="https://img.shields.io/github/stars/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Profile%20Repository%20Stars" alt="Live star count for the Jrdheeraj profile repository" />
+        <br /><br />
+        <img src="https://img.shields.io/github/watchers/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Repository%20Watchers" alt="Live watcher count for the Jrdheeraj profile repository" />
+        <br /><br />
+        <img src="https://img.shields.io/github/commit-activity/y/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Commits%20This%20Year" alt="Live yearly commit activity for the Jrdheeraj profile repository" />
       </td>
       <td align="center" width="50%">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jrdheeraj&theme=tokyonight" width="100%" alt="GitHub profile contribution summary" />
@@ -184,21 +186,21 @@
     <tr>
       <td width="33%" align="center">
         <h3>👥 Community</h3>
-        <img src="https://img.shields.io/github/followers/Jrdheeraj?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" />
+        <img src="https://img.shields.io/github/followers/Jrdheeraj?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers badge" />
         <br /><br />
-        <img src="https://img.shields.io/github/watchers/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Watchers" alt="Repository watchers" />
+        <img src="https://img.shields.io/github/watchers/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Watchers" alt="Repository watchers badge" />
       </td>
       <td width="33%" align="center">
         <h3>⭐ Recognition</h3>
-        <img src="https://img.shields.io/github/stars/Jrdheeraj?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" />
+        <img src="https://img.shields.io/github/stars/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Profile%20Repo%20Stars" alt="Profile repository stars badge" />
         <br /><br />
-        <img src="https://img.shields.io/github/commit-activity/y/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Commits%20this%20year" alt="Yearly commit activity" />
+        <img src="https://img.shields.io/github/commit-activity/y/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Commits%20This%20Year" alt="Yearly commit activity badge" />
       </td>
       <td width="33%" align="center">
         <h3>📦 Profile Project</h3>
-        <img src="https://img.shields.io/github/repo-size/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Repository%20size" alt="Profile repository size" />
+        <img src="https://img.shields.io/github/repo-size/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Repository%20Size" alt="Profile repository size badge" />
         <br /><br />
-        <img src="https://img.shields.io/github/last-commit/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Last%20update" alt="Last repository update" />
+        <img src="https://img.shields.io/github/last-commit/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Last%20Commit" alt="Last commit date badge" />
       </td>
     </tr>
   </table>
@@ -206,12 +208,19 @@
 
 <div align="center">
   <h3>📈 Development Snapshot</h3>
-  <img src="https://img.shields.io/github/languages/count/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Languages" alt="Language count" />
-  <img src="https://img.shields.io/github/repo-size/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Project%20size" alt="Project size" />
-  <img src="https://img.shields.io/github/created-at/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Created" alt="Repository creation date" />
+  <img src="https://img.shields.io/github/languages/count/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Languages" alt="Number of languages used in the profile repository" />
+  <img src="https://img.shields.io/github/repo-size/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Project%20Size" alt="Current profile repository size" />
+  <img src="https://img.shields.io/github/last-commit/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Last%20Commit" alt="Latest commit timestamp for the profile repository" />
 </div>
 
 <div align="center">
+  <h3>🧭 Cross-Repository Activity Links</h3>
+  <a href="https://github.com/Jrdheeraj"><img src="https://img.shields.io/badge/Total%20Commits%20(All%20Repos)-View%20Contribution%20Calendar-0A0F1C?style=for-the-badge&logo=github&logoColor=00D4FF" alt="Open GitHub contribution calendar to view total commits across all repositories" /></a>
+  <br /><br />
+  <a href="https://github.com/pulls?q=is%3Apr+author%3AJrdheeraj"><img src="https://img.shields.io/badge/Total%20Pull%20Requests%20(All%20Repos)-View%20Live%20PR%20Search-111827?style=for-the-badge&logo=github&logoColor=7B2CBF" alt="Open live GitHub pull request search for Jrdheeraj" /></a>
+  <br /><br />
+  <a href="https://github.com/issues?q=is%3Aissue+author%3AJrdheeraj"><img src="https://img.shields.io/badge/Total%20Issues%20(All%20Repos)-View%20Live%20Issue%20Search-181717?style=for-the-badge&logo=github&logoColor=00D4FF" alt="Open live GitHub issue search for Jrdheeraj" /></a>
+  <br /><br />
   <a href="https://github.com/Jrdheeraj?tab=repositories"><img src="https://img.shields.io/badge/🚀%20Explore%20my%20repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" /></a>
   <a href="https://github.com/Jrdheeraj?tab=overview"><img src="https://img.shields.io/badge/✨%20View%20my%20GitHub%20profile-0A0F1C?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub profile" /></a>
 </div>

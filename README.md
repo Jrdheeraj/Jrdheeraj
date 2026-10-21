@@ -99,23 +99,21 @@
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Jrdheeraj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Jrdheeraj&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img src="https://img.shields.io/github/followers/Jrdheeraj?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/Jrdheeraj?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/repo-size/Jrdheeraj/Jrdheeraj?style=for-the-badge&logo=github&label=Profile%20Repo%20Size" alt="Profile repository size" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Jrdheeraj&theme=tokyonight&hide_border=true" alt="Contribution activity graph" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Jrdheeraj&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <a href="https://github.com/Jrdheeraj?tab=repositories"><img src="https://img.shields.io/badge/View%20all%20repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="View all repositories" /></a>
+  <a href="https://github.com/Jrdheeraj?tab=overview"><img src="https://img.shields.io/badge/View%20GitHub%20profile-0A0F1C?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub profile" /></a>
 </div>
 
 ---
 
 ## 🐍 Contribution Snake
 
-![snake gif](https://github.com/Jrdheeraj/Jrdheeraj/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://raw.githubusercontent.com/Jrdheeraj/Jrdheeraj/output/github-contribution-grid-snake.svg)
 
 ---
 

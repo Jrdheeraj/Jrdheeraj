@@ -22,25 +22,65 @@
 
 ---
 
-## 👨‍💻 About Me
+## 🧑‍💻 About Me
 
-<img align="right" width="320" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Developer Illustration" />
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=700&color=7B2CBF&center=true&vCenter=true&width=850&lines=Turning+ideas+into+beautiful%2C+useful+products;Learning+every+day+%7C+Building+with+purpose;AI+%26+ML+enthusiast+%7C+Full+Stack+creator" alt="About me animation" />
+</div>
 
-🎓 CSE Student | Aspiring Entrepreneur  
-🚀 Exploring AI/ML and full-stack development  
+<table>
+  <tr>
+    <td width="55%" valign="top">
+      <h3>🚀 Who I Am</h3>
+      <p>
+        I’m <strong>Dheeraj</strong>, a CSE student and aspiring entrepreneur who enjoys transforming bold ideas into practical digital experiences.
+      </p>
+      <p>
+        I explore the intersection of <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>, and <strong>Full-Stack Development</strong> to build projects that are both intelligent and impactful.
+      </p>
+      <h3>🎯 My Current Mission</h3>
+      <ul>
+        <li>Master Data Structures & Algorithms</li>
+        <li>Build intelligent AI/ML applications</li>
+        <li>Create polished, user-friendly web experiences</li>
+        <li>Turn experiments into real-world products</li>
+      </ul>
+    </td>
+    <td width="45%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="100%" alt="Animated developer coding illustration" />
+      <br />
+      <img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00D4FF?style=for-the-badge&logo=googlebrain&logoColor=white" alt="AI and ML focus" />
+      <br />
+      <img src="https://img.shields.io/badge/Mindset-Build%20%7C%20Learn%20%7C%20Improve-7B2CBF?style=for-the-badge&logo=rocket&logoColor=white" alt="Build learn improve mindset" />
+    </td>
+  </tr>
+</table>
 
-📘 Currently learning:
-- Data Structures & Algorithms
-- Deep Learning & Generative AI
-- Full-stack Web Development
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3&section=header" width="80%" alt="animated gradient divider" />
+</div>
 
-💡 Interests:
-- Problem Solving
-- Product Thinking
-- AI/ML
-- Building useful projects
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%"><h2>🧠</h2><strong>Think</strong><br />Curiously</td>
+      <td align="center" width="25%"><h2>⚡</h2><strong>Build</strong><br />Fearlessly</td>
+      <td align="center" width="25%"><h2>📚</h2><strong>Learn</strong><br />Relentlessly</td>
+      <td align="center" width="25%"><h2>🌍</h2><strong>Create</strong><br />Impactfully</td>
+    </tr>
+  </table>
+</div>
 
-⚡ Fun Fact: I turn ideas into projects before overthinking them. 😄
+<details>
+  <summary><strong>✨ A little more about me</strong></summary>
+  <br />
+  <ul>
+    <li>💡 I enjoy solving problems and designing better ways to build products.</li>
+    <li>🤖 I’m fascinated by intelligent systems, generative AI, and emerging technology.</li>
+    <li>🎨 I care about clean interfaces, smooth interactions, and memorable user experiences.</li>
+    <li>⚡ Fun fact: I turn ideas into projects before overthinking them. 😄</li>
+  </ul>
+</details>
 
 <br clear="both" />
 

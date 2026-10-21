@@ -16,6 +16,7 @@
 <div align="center">
   <a href="https://github.com/Jrdheeraj"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://www.linkedin.com/in/kannemadugu-dheeraj-479515289/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:kannemadugudheeraj5@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Dheeraj" /></a>
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbac4680-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
@@ -165,11 +166,11 @@
     <tr>
       <td align="left" width="50%">
         <h3>📈 Profile Activity</h3>
-        <p>⭐ <strong>Total Stars Earned:</strong> <a href="https://github.com/Jrdheeraj?tab=repositories">View repositories</a></p>
-        <p>🔥 <strong>Total Commits:</strong> <a href="https://github.com/Jrdheeraj?tab=overview">View contribution activity</a></p>
-        <p>🔀 <strong>Total Pull Requests:</strong> <a href="https://github.com/search?q=author%3AJrdheeraj&type=pullrequests">View pull requests</a></p>
-        <p>❗ <strong>Total Issues:</strong> <a href="https://github.com/search?q=author%3AJrdheeraj&type=issues">View issues</a></p>
-        <p>🗓️ <strong>Contributed Recently:</strong> <a href="https://github.com/Jrdheeraj?tab=overview">View contributions</a></p>
+        <p>⭐ <strong>Total Stars Earned:</strong> <strong>4</strong></p>
+        <p>🔥 <strong>Total Commits:</strong> <strong>302</strong></p>
+        <p>🔀 <strong>Total Pull Requests:</strong> <strong>8</strong></p>
+        <p>❗ <strong>Total Issues:</strong> <strong>0</strong></p>
+        <p>🗓️ <strong>Contributed Recently:</strong> <strong>302 commits</strong></p>
       </td>
       <td align="center" width="50%">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jrdheeraj&theme=tokyonight" width="100%" alt="GitHub profile contribution summary" />
